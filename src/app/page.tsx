@@ -6,38 +6,38 @@ export default function HomePage() {
   const sections = [
     {
       title: 'Voter Registration',
-      description: 'Register new voters with biometric data',
+      description: 'Register and verify voters with PNG NID integration',
       href: '/register',
       icon: UserCheck,
       color: 'bg-green-600'
+    },
+    {
+      title: 'Electoral Roll Search',
+      description: 'Search electoral roll by NID or fingerprint',
+      href: '/electoral-search',
+      icon: Search,
+      color: 'bg-blue-600'
     },
     {
       title: 'Census System',
       description: 'Population and household census data collection',
       href: '/census',
       icon: Users,
-      color: 'bg-blue-600'
+      color: 'bg-purple-600'
     },
     {
       title: 'Census Dashboard',
       description: 'View census statistics and analytics',
       href: '/census-dashboard',
       icon: BarChart3,
-      color: 'bg-purple-600'
+      color: 'bg-indigo-600'
     },
     {
       title: 'Biometrics Capture',
       description: 'Capture and verify biometric data',
       href: '/enumerator/biometrics',
-      icon: Search,
-      color: 'bg-orange-600'
-    },
-    {
-      title: 'Census Monitoring',
-      description: 'Monitor enumeration progress and quality',
-      href: '/census-monitoring',
       icon: Database,
-      color: 'bg-indigo-600'
+      color: 'bg-orange-600'
     },
     {
       title: 'Results Hub',
@@ -71,14 +71,14 @@ export default function HomePage() {
             <Vote className="w-12 h-12 text-white" />
           </div>
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            PNG Electoral System
+            PNG Electoral Registration System
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Digital Census & Electoral Management System
+            Integrated with PNG National Identification System
           </p>
-          <div className="mt-4 inline-block bg-yellow-100 border border-yellow-400 rounded-lg px-6 py-3">
-            <p className="text-sm font-semibold text-yellow-800">
-              🔓 Open Access Mode - No Login Required
+          <div className="mt-4 inline-block bg-green-100 border border-green-400 rounded-lg px-6 py-3">
+            <p className="text-sm font-semibold text-green-800">
+              🔗 Live Production System - PNG NID Connected
             </p>
           </div>
         </div>
@@ -105,16 +105,16 @@ export default function HomePage() {
           })}
         </div>
 
-        {/* Workshop Info */}
+        {/* System Info */}
         <div className="text-center bg-white rounded-xl shadow-md p-8 border border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-3">
-            PNG Electoral Commission Workshop
+            Papua New Guinea Electoral Commission
           </h2>
           <p className="text-lg text-gray-600">
-            October 13-15, 2025 • Hilton Hotel, Port Moresby
+            Electoral Roll Management System
           </p>
           <p className="text-sm text-gray-500 mt-4">
-            Workshop Testing Environment - All Features Unlocked
+            Production Environment - Integrated with PNG NID Database
           </p>
         </div>
       </div>
